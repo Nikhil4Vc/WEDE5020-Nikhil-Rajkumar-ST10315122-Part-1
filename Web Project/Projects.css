@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+.Header {
+    background-color: black;
+    padding: 10px;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0fr 6fr 1fr;
+    column-gap: 5px;
+
+}
+
+
+.Topnav {
+    background-color: black;
+}
+
+
+.Topnav a {
+    color: red;
+    padding: 12px 12px;
+    text-decoration: underline red;
+}
+
+
+.Topnav a:hover {
+    background-color: antiquewhite;
+}
+
+
+.Middle {
+    padding: 5px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Footer {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
